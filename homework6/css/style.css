@@ -1,0 +1,524 @@
+	/*RESET*/
+
+	*{
+		margin: 0;
+		padding: 0;				
+	}
+
+	/*WRAPPER*/
+
+	.wrapper{
+		width: 910px;
+	    height: 1250px;
+	    margin: 0 auto;
+	    padding-left: 45px;
+	    padding-right: 45px;
+	    padding-top: 27px;	  
+	}
+
+	/*HEADER*/
+	ul {
+		list-style: none;
+		display: block;
+	}
+
+	ul > li{
+		float: left;
+	}
+
+	.header{
+		height: 321px;
+		width: 910px;		
+	}
+
+	.topmenu{
+		height: 31px;
+	    width: 910px;
+	    padding-left: 7px;
+	}
+
+	.topmenu > ul > li > .phone {
+		background: url('../img/phone.png');
+	    background-repeat: no-repeat;
+	    padding-left: 25px;
+	    text-decoration: none;
+	    line-height: 20px;
+	    width: 289px;
+	    font-weight: bold;
+	    color: #5e696d;
+	    /*letter-spacing: 0.45px;*/
+  		font-size: 19px;
+  		font-family: Arial, sans-serif;
+	}
+
+	.topmenu > ul > li > form{
+		background: #14486c;
+	    width: 471px;
+	    height: 26px;
+	    border-radius: 3px;
+	    padding-left: 6px;
+	    padding-right: 17px;
+	    margin-left: 17px;
+	    margin-top: -5px;
+	}
+
+	.topmenu > ul > li > form > div.imglogin{		
+		background: url(../img/login.png);
+	    background-repeat: no-repeat;
+	    background-size: 16px;
+	    padding-left: 18px;
+	    padding-top: 2px;
+	    height: 24px;
+	    width: 465;
+	}
+	.topmenu > ul > li > form > div.imglogin > .classinputtext{
+		width: 114px;
+	    height: 17px;
+	    font-size: 11px;
+  		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		letter-spacing: 0.4px;		
+	}
+
+	.topmenu > ul > li > form > div.imglogin > .classinputpassword{
+		width: 114px;
+	    height: 17px;
+	    margin-left: 3px;
+	    font-size: 11px;
+  		font-family:'Lucida Sans Unicode', Arial, sans-serif;
+  		letter-spacing: 0.4px;		
+	}
+	
+	.topmenu > ul > li > form > div.imglogin > a {
+		text-decoration: none;
+   	 	color: #dfe6eb;
+    	font-size: 11px;
+    	font-family:'Lucida Sans Unicode', Arial, sans-serif;
+    	padding-left: 1px;
+	}	
+
+	.topmenu > ul > li > form > div.imglogin > .entrance{
+		display: inline-block;
+	    padding-right: 1px;
+	    padding-left: 3px;
+	    font-family:'Lucida Sans Unicode', Arial, sans-serif;
+	}
+
+	.topmenu > ul > li > form > div.imglogin > .forgotpassword{
+		text-decoration: underline;
+	    float: right;
+	    padding-right: 6px;
+	    font-stretch: semi-expanded;
+	    font-size: 12px;
+	    font-family:'Lucida Sans Unicode', Arial, sans-serif;
+	}
+
+	.topmenu > .endtopmenu {
+		width: 70px;
+	    height: 20px;
+	    float: right;
+	    border: 1px solid #bdc4c7;
+	    border-radius: 15px;
+	    padding-left: 2px;
+	    padding-right: 2px;
+	    margin-top: -4px;
+	    margin-right: 14px;
+
+	}
+
+	.topmenu > .endtopmenu > li {
+		padding-left: 2px;		
+	}
+
+	.menu{
+		
+		width: 910px;
+		height: 33px;
+    	margin-top: 7px;    	
+    	border-radius: 4px;
+
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c4367+0,485160+3,505860+6,464d54+9,2d3236+15,2a2e32+18,131517+53,070809+76,010101+94,0a1235+97,575861+100 */
+		background: #3c4367; /* Old browsers */
+		background: -moz-linear-gradient(top,  #3c4367 0%, #485160 3%, #505860 6%, #464d54 9%, #2d3236 15%, #2a2e32 18%, #131517 53%, #070809 76%, #010101 94%, #0a1235 97%, #575861 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #3c4367 0%,#485160 3%,#505860 6%,#464d54 9%,#2d3236 15%,#2a2e32 18%,#131517 53%,#070809 76%,#010101 94%,#0a1235 97%,#575861 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #3c4367 0%,#485160 3%,#505860 6%,#464d54 9%,#2d3236 15%,#2a2e32 18%,#131517 53%,#070809 76%,#010101 94%,#0a1235 97%,#575861 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c4367', endColorstr='#575861',GradientType=0 ); /* IE6-9 */
+
+	}
+
+	.menu > .menuright {
+		background: url(../img/basket.png);
+		background-repeat: no-repeat;
+		float: right;
+		padding-left: 30px;
+		margin-top: 9px;
+    	margin-right: 15px;	
+
+	}
+	
+	.menu > .menuright > li > a{
+		text-decoration: none;
+		color: #bbc4c8;
+		font-family: Arial, sans-serif;
+ 		font-size: 11px;
+  		text-indent: 4px;  		
+	}
+
+	.color_menu_right{
+		color: #0e4c76;
+		font-weight: bold;		 
+    	font-size: 12px;
+	}
+
+	.number_products{
+		margin-right: 17px;
+	}
+
+	.number_money{
+
+	}
+
+
+	/*////////////*/
+
+	.menu > .menuleft {
+		float: left;
+		margin-left: 127px;
+	}
+
+	.menu > .menuleft > li > a:hover{
+		display: block;
+		border-radius: 15px;
+		font-size: 14px;
+    	color: #ffffff;
+    	text-align: center;
+    	border: -1 solid #ffffff;   							
+
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25617b+0,1f6787+4,1c5e7e+20,124366+56,0c3357+96,092036+100 */
+		background: #25617b; /* Old browsers */
+		background: -moz-linear-gradient(top,  #25617b 0%, #1f6787 4%, #1c5e7e 20%, #124366 56%, #0c3357 96%, #092036 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #25617b 0%,#1f6787 4%,#1c5e7e 20%,#124366 56%,#0c3357 96%,#092036 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #25617b 0%,#1f6787 4%,#1c5e7e 20%,#124366 56%,#0c3357 96%,#092036 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', endColorstr='#092036',GradientType=0 ); /* IE6-9 */
+
+	}
+	.menu > .menuleft > li > a{
+		text-decoration: none;
+  		color: #b1bcc0;
+ 		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		font-size: 14px;
+  		line-height: 30px;
+  		text-transform: uppercase;  		
+		padding-left: 9px;
+    	padding-right: 8px;		
+	
+	}
+
+	.menu > .menuleft > li{
+		padding-left: 11px;
+	}
+		
+	
+
+	/*.imgbanner1{		
+		width: 417px;
+	}*/
+		
+	/*MAIN*/
+
+	/*.clearfix:after{
+		display: block;
+		content: '';
+		clear: both;
+		float: none;		 		
+	}*/
+
+	.banner{
+		background: white;
+		height: 150px;
+		width: 912px;		
+	}
+
+	.banner > ul > li > a > .imgbanner1{
+		border: 1px solid #adadae;
+		box-shadow: 3px 3px 5px #adadae;
+		border-radius: 17px;
+		margin-left: 5px;
+	}
+	.banner > ul > li > a > .imgbanner2{
+		border: 1px solid #adadae;
+		box-shadow: 3px 3px 5px #adadae;
+		border-radius: 17px;
+		margin-left: 14px;
+	}
+	.banner > ul > li > a > .imgbanner3{
+		border: 1px solid #adadae;
+		box-shadow: 3px 3px 5px #adadae;
+		border-radius: 17px;
+		margin-left: 10px;
+	}
+
+	.columns {		
+		background: repeating-linear-gradient(#e4e7e8, #94a7b0 100%);	
+		height: 628px;
+		width: 912px;	
+	}
+
+	.h2icon {
+		height: 20px;
+		width: 20px;
+	}
+
+	.backgroundleftcolumn{
+		background: white;
+		height: 628px;
+    	float: left;
+   		width: 190px;
+	}
+
+	.backgroundrightcolumn{
+		background: white;
+		height: 628px;
+    	width: 185px;
+	    float: right;
+	    padding-left: 12px;	
+	}
+
+	.leftcolumn {
+	}
+
+	.rightcolumn {
+						
+	}
+
+	.centercolumn{
+		margin: 0 auto;
+	}
+
+	.sidebar{
+		background: url(../img/h2icon.png);
+	    background-position-x: 2px;
+	    background-position-y: 2px;
+	    background-repeat: no-repeat;   
+	    border: 1px solid #949fa4;
+	    border-radius: 15px;
+	    width: 156px;
+	    height: 19px;
+	    box-shadow: 2px 2px 4px #b6b6b6;
+	    font-family: Arial, sans-serif;
+	    text-transform: uppercase;
+	    font-size: 13px;
+	    padding-left: 27px;
+	    padding-top: 5px;
+	    margin-bottom: 5px;		
+	}
+
+	.sidebar > a{
+		text-decoration: none;
+		color: #114165;
+	}	
+
+	.sidebar_list > li > a{
+		background: url(../img/h3icon.png);
+		background-repeat: no-repeat;
+		background-position-x: 4px;
+	    background-position-y: 2px;
+	    text-transform: uppercase;
+		display: inline-block;
+		border: 1px solid #79878d;
+		border-radius: 15px;
+		padding-left: 28px;
+		padding-top: 7px;
+		text-decoration: none;
+		color: #114165;
+		width: 122px;
+		height: 20px;
+		margin-top: 5px;
+	}
+
+	.sidebar_list{
+		color: #114165;
+  		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		font-size: 15px;
+	}
+
+	.sidebar_sublist{
+		list-style-type: circle;		
+		display: inline-block;
+		padding-left: 53px;
+		color: #1f2528;
+  		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		font-size: 13px;		
+	}
+
+	.sidebar_sublist > li{
+		float: none;
+	}
+
+	.sidebar_sublist > li > a{
+		text-decoration: none;
+		margin-left: -6px;
+		line-height: 25px;
+	}
+
+	.sidebar_sublist > li > a:hover{		
+		padding: 0px 0px;
+		text-decoration: underline;
+		color: #0c3256;
+		font-weight: bold;
+		font-size: 14px;
+		font-family: Arial, sans-serif;
+		font-style: italic;
+		transition-delay: 0.2s;
+
+	}
+
+	.sidebar_list > li > .brends{
+		width: 105px;
+    	height: 20px;
+    	margin-top: 9px;
+	}
+
+	.sidebar_list > li > .brends_sublist{
+		list-style-type: none;
+		margin-left: -44px;
+		line-height: 25px;
+		padding-top: 3px;
+	}
+
+	.brends_form{
+		padding-left: 14px;
+		height: 232px;
+	}
+
+	.input_button{
+		border: 1px solid #1f6787;
+	    border-radius: 10px;
+	    height: 25px;
+	    width: 79px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    color: #e5e9ea;
+
+			    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#71919f+0,1f6787+4,1c5e7e+20,124366+56,0c3357+96,697b8b+100 */
+		background: #71919f; /* Old browsers */
+		background: -moz-linear-gradient(top,  #71919f 0%, #1f6787 4%, #1c5e7e 20%, #124366 56%, #0c3357 96%, #697b8b 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #71919f 0%,#1f6787 4%,#1c5e7e 20%,#124366 56%,#0c3357 96%,#697b8b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #71919f 0%,#1f6787 4%,#1c5e7e 20%,#124366 56%,#0c3357 96%,#697b8b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71919f', endColorstr='#697b8b',GradientType=0 ); /* IE6-9 */
+	}
+
+	.position{
+		margin-top: 13px;
+    	margin-left: 23px;
+	}
+	
+
+	.products{
+		padding-top: 10px;
+	}
+	.product {
+		width: 150px;
+	    height: 200px;
+	    text-align: center;
+	    margin-left: 18px;
+	    margin-bottom: 2px;
+	}
+
+	.product_height{				
+		display: block;
+		margin: 5px auto;
+		height: 118px;		
+	}
+
+	.product001_link{
+		width: 138px;
+		height: 127px;
+		display: inline-block;
+		background: white;
+		border: 1px solid #bfc6c8;
+		border-radius: 8px;
+	}
+
+	.format_product_link1{
+		text-decoration: none;		
+		color: #206988;
+  		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		font-size: 15px;
+  		text-align: center;
+	}
+
+	.format_product_link2{
+		text-decoration: none;		
+		color: #1f2528;
+  		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		font-size: 13px;
+  		text-align: center;
+	}
+
+	.price{
+		text-decoration: none;		
+		color: #114165;
+  		font-family: 'Lucida Sans Unicode', Arial, sans-serif;
+  		font-weight: bold;
+  		font-style: italic;
+  		font-size: 16px;
+  		text-align: center;
+	}
+
+	.footercontent{
+		height: 88px;
+		width: 910px;		
+	}
+
+	.footer_lebal {
+		height: 30px;
+	    width: 695px;
+	    margin: 0 auto;
+	    padding-top: 41px;
+	    padding-bottom: 16px;
+	}
+
+	.footer_lebal > li{
+    	padding-right: 12px;
+
+	}
+
+
+	/*FOOTER*/
+	footer{
+		background: #213a4d;
+		height: 100px;
+		width: 910px;
+	}
+
+	.footer_menu {
+		font-family: Arial, sans-serif;
+	    font-size: 12px;
+	    list-style: none;
+	    width: 310px;
+	    margin: 0 auto;
+	    padding-top: 10px;
+	    padding-left: 21px;
+	}
+
+	.footer_menu a{		
+	 	color: #bec6c9;
+	 	text-decoration: none;
+	}
+	.footer_menu li{
+		color: #bec6c9;
+		padding-right: 12px;
+	}		
+
+	.footer_menu a:hover {
+		color: #52abcb;
+		transition-delay: 0.2s;
+	}
+
+	.copyright {
+		font-family: Arial, sans-serif;
+		font-size: 10px;
+		color: #7f4740;
+		text-align: center;
+		margin-top: 11px;
+	}
